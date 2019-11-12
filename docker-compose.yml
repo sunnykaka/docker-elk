@@ -39,6 +39,7 @@ services:
         read_only: true
     ports:
       - "5000:5000"
+      - "10515:10515"
       - "9600:9600"
     environment:
       LS_JAVA_OPTS: "-Xmx256m -Xms256m"
